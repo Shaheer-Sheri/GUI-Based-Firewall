@@ -1,0 +1,4 @@
+﻿  Authenticate.cpp
+E:\temp\Project1\Authenticate.cpp(7,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Authenticate.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project1.vcxproj -> E:\temp\Project1\x64\Debug\Project1.exe

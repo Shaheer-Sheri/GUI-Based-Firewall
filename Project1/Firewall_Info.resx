@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_icon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAABIhJREFUWEflmNmr1VUUx6/zmHOKUyKUY2ZoZWVmmqg5aykGYZNzs1OazQW9iCES
+        IYgE+hCED6LQQy++KtI/YCI+9CT00oMv0fXzWaz949xzuefey7n6UF/48Ntr/ab9W3vttfc5Lf8btba2
+        roXDsBcGp/v+ihdPh0PwWNpDYQdsgV5x0b0WLxoFH8G6tPvDSngZRsA0MFLz44Z7IR7eB7bBbhiYbv0/
+        QdH1dOtfDgdgVLp6RjxwMXwMk9JVCd9zcAkuw1vp1r8RvoWIYNPiQVPATixM27x4F74pvnrhnwufwCyY
+        BM11hgcMBmfHKViabv3fQdE/MCxPeW407Ic16dJnZ9am2X1xs+H9EIan/SwYnangC7+AHyBewrEvvAG7
+        YIC+IuzJUHWuy+Kmx+EIzEh7DKyHBdAbXgWHaEjcgGgvAaf3hHRVwjcHjkHXh4mLfanhXZUufQ/AX1B0
+        pMb/PrwJTt+n44Ya4XPqHwQj3LWc4SLD60N3Qn14e8GXcAWcKXPTPwSMzs/QOy5OYTv1HS7PD0pf5znD
+        BUvB8I5P+xHwS9+B0XFRjfDZuVfgAxgGe8CXzwbvfQGOwuS8JaQNHecMJ+3IOaiKEe0/oeiXdIew54G5
+        NC1t8+c4OFzPw0vwI1SFUGGPhK+h42HipAvbw+DwvA4Ol4l4Gk7A9LxuLFhBV8aNiPYgMAJtih+20dqV
+        7VKpHS6j1mln4mEcx4PJ9mKcRLT7wduwHfqnW78RsSOl8M3LUyHsfWCkLHhT0tc4Zzi5zovSDGE/BdaS
+        rWDnxuWpSviMZMmxq3AThsZJRNuhXJxmCNvONMwZI+N490lXCNsk3Z9mJXwPgjmyLW2H6m9Qf8DM9O/2
+        WIRtJI1gw8isAcP5OSxJdwh7TzZtl+Fylf4K+qbfQliryCmO+zwq2ovgU3AR7TRnYgpydEraqalpR2c4
+        LgPDPgHcrxxIv1X1LJyB3+FfcDF1qXDqO5XNq/hIjt3LGdqlWLlh+h78omfytOf9ugXZ/g1ugeuVnf01
+        /XbABLaIRgQV7S51ZnWalfBZF8yN+srqVjIKIcdrcBsc5hvwBBiNk9BuE4VvBVSrfjtx0pzxCz6Dh9Id
+        wq5yRmFbIC9Av7TdUqg7sAGMqpGs/4BSMjruiOKCyBmw2JmgzqzY1XMsOWMOGPqFsBpmpd/8sYPjwNli
+        OajKAO0BYAlw2Kvh6lBcVJ8z7lF86Gbwa+zcaxBfy9EOHI2LU9hWZyM7MV36VoGr/5h0dS4utjPx86JW
+        +B4FV+MR6aqE7z1wl+cGykQ9D2XoZoDJHCt7t8RN5ozT2RfEUl+EXZ8zDpc5sShdIa+D4eCOcGO6uy9u
+        LjljZfWLNuWpqjMc3bc4XC549ZW6rNrN/4LkAQ5T7VjPBCus20u/2B9kLnbtxh7fk2BiR5FsWjzIzrTZ
+        BCl8m+AixFpTK3wWL5O8zULYtHigxc19yop0VcJXnzMDwbWp3XD1qHi4Ozi3mrGZUrSrztA2gs6cnv15
+        2ki8zByJ30lgUpZ/F+bkJfdXvNhfkCavdabxbv6/o5aWu1g1KT87VTwAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="lbl_info2.Text" xml:space="preserve">
+    <value>Welcome to our basic firewall, created by a dedicated group of students! Our firewall is designed to provide simple yet effective
+protection for your network, keeping your systems safe from unauthorized access and potential threats. With a focus on usability
+and reliability, our firewall aims to deliver essential security features without unnecessary complexity</value>
+  </data>
+  <data name="richTxtBox_description.Text" xml:space="preserve">
+    <value>On the main screen of our application, you'll find a user-friendly interface that allows you to create and manage different
+types of firewall rules to customize your network security settings. Here's how you can enter various rules:
+
+1.Source IP Address: You can specify rules based on the source IP address of incoming packets. This enables you to control
+access based on the origin of the traffic.
+
+2.Destination IP Address: Similarly, you can set rules based on the destination IP address of outgoing packets. This allows
+you to restrict communication to specific destinations.
+
+3.Source Port: Customize rules based on the source port of incoming packets. This is useful for managing traffic
+originating from specific services or applications.
+
+4.Destination Port: Set rules based on the destination port of outgoing packets. This helps you control access to
+specific services or applications on remote hosts.
+
+5.Protocol: Define rules based on the protocol used in network communication. This allows you to enforce
+security policies based on protocols such as TCP, UDP, ICMP, etc.
+
+6.Data Inspection: For advanced filtering capabilities, you can create rules based on the data content of packets.
+Specify a certain string to be searched within the packet data. If the entire string is found within the data part of
+the packet, the rule will be applied. This feature enables you to enforce policies based on specific content.
+
+With these options, you have the flexibility to create fine-grained security policies tailored to your specific requirements,
+enhancing control and protection over your network traffic.</value>
+  </data>
+  <data name="btn_CloseFIrewall.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAKdJREFUOE/FlFEOgjAQBXsKPQIxXkl/+dVLeDyVI/mGiqHplixNkUkmKW32bUpg
+        w5Yc5VX2K6WG2gQ2nvImraIl7/IlD/IHXQirhdBLXEambrVk9X8JfMhTXCawx9kcV2An3/I8PkWsPXAF
+        wjygFAbuQOCKw1frFcB+gU2vbAWUQl2BzT+bNWwfyHDgB68lGw6ML0YQB1M3r+b4AkLpYhUtSU0W1ogQ
+        PtEnQDOFzePUAAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>
