@@ -6,11 +6,6 @@ A simple C++-based firewall simulation built using Object-Oriented Programming p
 ## Overview
 This project is a simple firewall simulation application developed using C++ and Object-Oriented Programming (OOP) concepts. It features a graphical user interface (GUI) that enables users to define firewall rules, add network packets, and analyze whether the traffic should be allowed or denied.
 
-## Team Members
-- M Shaheer Ali Tarar (232078)
-- M Imad Ul Islam (232082)
-- Munawar Masood (232932)
-
 ## Features
 - Login interface to restrict unauthorized access.
 - Firewall information and rule definition interface.
